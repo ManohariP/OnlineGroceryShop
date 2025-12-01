@@ -61,8 +61,8 @@ try{
     <tr style="background: rgb(227, 238, 10)">
          <td><%=rs.getString(1) %></td>
         <td><%=rs.getString(2) %></td>
-        <td><i class="fa fa-inr"></i><%=rs.getString(3) %></td>
-        <td><%=rs.getString(4) %></td>
+        <td><%=rs.getString(3) %></td>
+        <td><i class="fa fa-inr"></i><%=rs.getString(4) %></td>
         <td ><a href="addToCartAction.jsp?id=<%=rs.getInt(1)%>" id="cart">Add to cart<i class="fa-solid fa-cart-shopping"></i></a></td>
     </tr>
    <%
@@ -82,4 +82,5 @@ try{
     </div>
 
 </body>
+
 </html>
